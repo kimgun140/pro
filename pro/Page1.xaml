@@ -10,13 +10,11 @@
 
     <Grid HorizontalAlignment="Left" Width="1200">
 
-        <Button x:Name="Go_order" Content="주문하기" HorizontalAlignment="Center" Margin="0,189,0,0" VerticalAlignment="Top" Click="btn_nav_Click" Panel.ZIndex="2" Height="20" Width="52"/>
-        <Button x:Name="btn_2" Content="나가기" HorizontalAlignment="Center" Margin="0,241,0,0" VerticalAlignment="Top" Click="btn_nav_Click" Panel.ZIndex="2" Height="20" Width="52"  >
+        <Button x:Name="Go_order" Content="주문하기" HorizontalAlignment="Center" Margin="0,189,0,0" VerticalAlignment="Top" Click="btn_nav_Click" Panel.ZIndex="2" Height="20" Width="52" FontWeight="Bold"/>
+        <Button x:Name="btn_2" Content="나가기" HorizontalAlignment="Center" Margin="0,241,0,0" VerticalAlignment="Top" Panel.ZIndex="2" Height="20" Width="52" Click="btn_2_Click"  >
         </Button>
-        <Image Source="C:\Users\LMS\source\repos\pro\pro\Image\bbq_logo.png" HorizontalAlignment="Center" Height="100" Margin="0,36,0,0" VerticalAlignment="Top" Width="100" Panel.ZIndex="2" />
+        <Image Source="/Image/11.jpg" HorizontalAlignment="Left" Height="161" VerticalAlignment="Top" Width="407" Panel.ZIndex="2" Margin="430,0,0,0" />
         <Label x:Name="Ground_back" Content="" Background="#FFE08A8A" Panel.ZIndex="1" HorizontalAlignment="Center" VerticalAlignment="Top" Height="450" Width="340" />
-        <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Width="1200" Height="112" Background="#FFF9BFBF"/>
-        <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Width="1200" Height="112" Background="#FFF9BFBF" Margin="0,338,0,0"/>
 
 
     </Grid>

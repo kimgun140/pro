@@ -13,11 +13,25 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Image\11.jpg" />
     <None Remove="Image\bbq_logo.png" />
+    <None Remove="Image\images %281%29.jpg" />
+    <None Remove="Image\images %282%29.jpg" />
+    <None Remove="Image\images %283%29.jpg" />
+    <None Remove="Image\images.jpg" />
+    <None Remove="Image\minus.png" />
+    <None Remove="Image\다운로드.jpg" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Image\11.jpg" />
     <Resource Include="Image\bbq_logo.png" />
+    <Resource Include="Image\images (1).jpg" />
+    <Resource Include="Image\images (2).jpg" />
+    <Resource Include="Image\images (3).jpg" />
+    <Resource Include="Image\images.jpg" />
+    <Resource Include="Image\minus.png" />
+    <Resource Include="Image\다운로드.jpg" />
     <Resource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

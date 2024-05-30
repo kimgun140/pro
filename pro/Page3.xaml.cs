@@ -71,7 +71,8 @@ namespace pro
             }
         }
 
-        public Page3()
+        public Page3() 
+
         {
             InitializeComponent();
 
@@ -101,7 +102,7 @@ namespace pro
             //sangpum sangpumA = new sangpum();
             sangpumA.Name = Item_name2.Text;
             sangpumA.Price = Price_block1.Text;
-            sangpumA.SangpumImg = @"C:\Users\LMS\source\repos\pro\pro\Image\images.jpg";
+            sangpumA.SangpumImg = @"/image/images.jpg"; 
             sangpums.Add(sangpumA);
             countA += 1;
             cal();
@@ -128,7 +129,7 @@ namespace pro
             // 치밥
             sangpumB.Name = Item_name1.Text;
             sangpumB.Price = Price_block1.Text;
-            sangpumB.SangpumImg =   @"C:\Users\LMS\source\repos\pro\pro\Image\images (3).jpg";  //버팔로
+            sangpumB.SangpumImg =   @"/Image/images(3).jpg";  //버팔로
             sangpums.Add(sangpumB);
             countB += 1;
             cal();
@@ -142,7 +143,7 @@ namespace pro
         {
             sangpumC.Name = Item_name3.Text;
             sangpumC.Price = Price_block3.Text;
-            sangpumC.SangpumImg = @"C:\Users\LMS\source\repos\pro\pro\Image\다운로드.jpg"; //프라이드
+            sangpumC.SangpumImg = @"/Image/다운로드.jpg"; //프라이드
             sangpums.Add(sangpumC);
             countC += 1;
             cal();

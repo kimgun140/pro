@@ -39,5 +39,10 @@ namespace pro
         {
 
         }
+
+        private void btn_2_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.GetCurrentProcess().Kill();
+        }
     }
 }

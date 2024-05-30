@@ -1,0 +1,23 @@
+﻿<Page x:Class="pro.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:pro"
+      mc:Ignorable="d" 
+      d:DesignHeight="1100" d:DesignWidth="1200"
+      Title="Page1">
+
+    <Grid HorizontalAlignment="Left" Width="1200">
+
+        <Button x:Name="Go_order" Content="주문하기" HorizontalAlignment="Center" Margin="0,189,0,0" VerticalAlignment="Top" Click="btn_nav_Click" Panel.ZIndex="2" Height="20" Width="52"/>
+        <Button x:Name="btn_2" Content="나가기" HorizontalAlignment="Center" Margin="0,241,0,0" VerticalAlignment="Top" Click="btn_nav_Click" Panel.ZIndex="2" Height="20" Width="52"  >
+        </Button>
+        <Image Source="C:\Users\LMS\source\repos\pro\pro\Image\bbq_logo.png" HorizontalAlignment="Center" Height="100" Margin="0,36,0,0" VerticalAlignment="Top" Width="100" Panel.ZIndex="2" />
+        <Label x:Name="Ground_back" Content="" Background="#FFE08A8A" Panel.ZIndex="1" HorizontalAlignment="Center" VerticalAlignment="Top" Height="450" Width="340" />
+        <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Width="1200" Height="112" Background="#FFF9BFBF"/>
+        <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Width="1200" Height="112" Background="#FFF9BFBF" Margin="0,338,0,0"/>
+
+
+    </Grid>
+</Page>
